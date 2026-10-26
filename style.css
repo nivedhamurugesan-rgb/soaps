@@ -1,0 +1,208 @@
+* {
+    font-family: "Black Chancery";
+    text-transform: uppercase;
+}
+
+
+
+body {
+    margin: 0;
+    background-color:black;
+    color :goldenrod;
+    text-align: center;
+}
+.page {
+    display: none;
+    height: 100vh;
+    padding: 30px;
+}
+#loading {
+    display: block;
+    height: 100vh;
+    padding: 250px;
+    background-color: black;
+    color: goldenrod;
+}
+#loading h1 {
+    font-size: 55px;
+}
+
+#loading p {
+    font-size: 22px;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+
+    border: 5px solid ivory;
+    border-top: 5px solid gold;
+
+    border-radius: 50%;
+
+    margin: 30px auto;
+
+}
+
+#home h1 {
+    font-size: 50px;
+}
+
+#home  p {
+    font-size: 22px;
+}
+
+#home h2 {
+    font-size: 30px;
+}
+
+
+.product {
+    display: inline-block;
+
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+
+    background-color:black;
+
+    border: 2px solid goldenrod;
+
+}
+
+.header 
+{
+    background-color: black;
+    color:goldenrod;
+    padding:20px;
+    text-align:left;
+
+}
+header h1{
+    margin :0;
+    text-align:left;
+    padding: 25px;
+}
+
+
+.header span{
+    display:inline-block;
+    margin:0 5px;
+}
+
+
+.product img {
+
+    width: 210px;
+    height:210px;
+}
+
+.product h2 {
+    font-size: 24px;
+}
+.product p {
+    font-size: 20px;
+}
+
+.Skintypes{
+    display:inline-block;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  justify-content: center;
+  gap: 20px;
+  
+  
+}
+
+.category-card {
+  width:200px;
+  text-align: center;
+
+}
+.category-card img {
+  width:200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+
+.category-name {
+  display:inline block;
+  font-weight: bold;
+}
+
+.view-btn {
+  padding: 5px 18px;
+  display: block;
+  margin: 10px auto;
+  
+  
+}
+
+#product h1{
+
+    font-size: 45px;
+}
+#product img {
+
+    width: 320px;
+    height: 320px;
+}
+
+#product  p {
+    font-size: 20px;
+}
+.ingredients {
+
+    background-color: black;
+
+    border: 2px solid ;
+
+    margin: 20px auto;
+
+    width: 320px;
+}
+
+.ingredients h2 {
+    font-size: 28px;
+}
+
+.ingredients p {
+    font-size: 19px;
+    margin: 8px;
+}
+.buy-button {
+
+    background-color: black;
+
+    color: goldenrod;
+
+    border: 2px solid goldenrod;
+
+    padding: 16px 40px;
+
+    margin: 30 px;
+
+    font-size: 20px;
+}
+#contact {
+
+    font-size: 22px;
+
+    color: black;
+
+    background-color: goldenrod;
+
+    border: 2px solid goldenrod;
+
+    padding: 15px;
+
+    margin: 20px auto;
+
+    width: 300px;
+}

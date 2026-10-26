@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CRYSTAL AURA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loading" class="page">
+        <h1>CRYSTAL AURA</h1>
+        <p>EXQUISITE CARE FOR YOUR OUTER GLOW</p>
+        <div class="loader"></div>
+        <p>LOADING...</p>
+    </div>
+
+    <div id="home" class="header">
+        <h2>CRYSTAL AURA</h2>    
+    </div>
+
+
+    <div class="product">
+        <img src="Berry_Rush.png"
+             alt="BERRY RUSH"
+             onclick="showProduct('BERRY RUSH','Berry_Rush.png','250')">
+        <h2>BERRY RUSH</h2>
+        <p>₹250</p>
+    </div>
+
+    <div class="product">
+        <img src="Citrus_Fresh.png"
+             alt="CITRUS FRESH"
+             onclick="showProduct('CITRUS FRESH','Citrus_Fresh.png','280')">
+        <h2>CITRUS FRESH</h2>
+        <p>₹280</p>
+    </div>
+
+    <div class="product">
+        <img src="Lavender_Dream.png"
+             alt="LAVENDER DREAM"
+             onclick="showProduct('LAVENDER DREAM','Lavender_Dream.png','300')">
+        <h2>LAVENDER DREAM</h2>
+        <p>₹300</p>
+    </div>
+
+    <div class="product">
+        <img src="Rose_Bliss.png"
+             alt="ROSE BLISS"
+             onclick="showProduct('ROSE BLISS','Rose_Bliss.png','270')">
+        <h2>ROSE BLISS</h2>
+        <p>₹270</p>
+    </div>
+
+    <div class="product">
+        <img src="Green_Tea_Glow.png"
+             alt="GREEN TEA GLOW"
+             onclick="showProduct('GREEN TEA GLOW','Green_Tea_Glow.png','290')">
+        <h2>GREEN TEA GLOW</h2>
+        <p>₹290</p>
+    </div>
+
+    <div class="product">
+        <img src="Coffee_Comfort.png"
+             alt="COFFEE COMFORT"
+             onclick="showProduct('COFFEE COMFORT','Coffee_Comfort.png','320')">
+        <h2>COFFEE COMFORT</h2>
+        <p>₹320</p>
+    </div>
+
+    <div class="product">
+        <img src="Mango_Magic.png"
+             alt="MANGO MAGIC"
+             onclick="showProduct('MANGO MAGIC','Mango_Magic.png','260')">
+        <h2>MANGO MAGIC</h2>
+        <p>₹260</p>
+    </div>
+
+    <div class="product">
+        <img src="Ocean_Breeze.png"
+             alt="OCEAN BREEZE"
+             onclick="showProduct('OCEAN BREEZE','Ocean_Breeze.png','280')">
+        <h2>OCEAN BREEZE</h2>
+        <p>₹280</p>
+    </div>
+
+
+    <div id="skintypes" class="page">
+        <h1>PRODUCT RECOMMENDATION</h1>
+
+        <div class="categories-grid">
+
+            <div class="category-card">
+                <img src="dry.jpg" alt="Dry Skin">
+                <a href="dryskin.html" class="view-btn">DRY SKIN</a>
+            </div>
+
+            <div class="category-card">
+                <img src="PRQL_Blog_Hero_OilySkin.webp"
+                     alt="Oily Skin">
+                <a href="oilyskin.html" class="view-btn">OILY SKIN</a>
+            </div>
+
+            <div class="category-card">
+                <img src="images.jpg" 
+                alt="Combination Skin">
+                <a href="combination.html" class="view-btn">
+                    COMBINATION SKIN
+                </a>
+            </div>
+
+            <div class="category-card">
+                <img src="PRQL_Blog_Hero_NormalSkin.webp"
+                     alt="Normal Skin">
+                <a href="normalskin.html" class="view-btn">
+                    NORMAL SKIN
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div id="product" class="page">
+
+       <button onclick="goBack()">BACK TO PRODUCTS</button>
+        <h1 id="productName"></h1>
+
+        <img id="productImage"
+             src="Berry_Rush.png"
+             alt="PRODUCT">
+
+        <h2 id="productPrice">₹250</h2>
+
+        <p>
+            A BEAUTIFUL HANDMADE SOAP FROM CRYSTAL AURA.
+        </p>
+
+        <p>SIZE: 100 G</p>
+
+        <div class="ingredients">
+            <h2>INGREDIENTS</h2>
+            <p>COCONUT OIL</p>
+            <p>OLIVE OIL</p>
+            <p>SHEA BUTTER</p>
+            <p>CASTOR OIL</p>
+            <p>SUBSTANCE EXTRACT</p>
+            <p>NATURAL FRAGRANCE</p>
+        </div>
+
+        <h2>ABOUT THE SOAP</h2>
+
+        <p>
+            MADE WITH CAREFULLY SELECTED INGREDIENTS
+            FOR A GENTLE AND REFRESHING BATHING EXPERIENCE.
+        </p>
+
+        <button class="buy-button" onclick="showContact()">
+            BUY NOW
+        </button>
+
+        <p id="contact"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
